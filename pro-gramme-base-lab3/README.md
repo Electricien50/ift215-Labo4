@@ -1,1 +1,1 @@
-# IFT 215 : Projet Finala
+# IFT 215 : Projet Final
