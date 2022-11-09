@@ -1,8 +1,5 @@
-$(function () {
-    console.log("coucou");
-    corps = $("#corps-principal");
-    listItems = corps;
-
+function chargerproduits(){
+    listItems = $("#list_items");
 
     $.ajax({
         url: "/produits",
@@ -63,10 +60,13 @@ $(function () {
 
                 dColMd3.append(dCardMb4);
 
-                corps.append(dColMd3)
+                listItems.append(dColMd3);
             }
         }
     })
+}
+
+$(function () {
 
 });
 
