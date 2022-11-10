@@ -1,4 +1,4 @@
-function chargerproduits(){
+function chargerproduit(){
     listItems = $("#list_items");
 
     $.ajax({
